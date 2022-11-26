@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+.Todoform{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.Todoform label{
+    min-width: 100%;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+.Todoform input{
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 1.5rem;
+    font-size: initial;
+}
+.Todoform button{
+    padding: 0 1.3rem;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-left: 5px;
+    background: #ff6666;
+    color: white;
+    text-transform: uppercase;
+    transition: background .2s ease-out;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Todoform button:hover{
+    background: #ff5e5e;
+}
+.Todoform button, 
+.Todoform input{
+    font-family: 'Quicksand', sans-serif;
+    height: 3rem;
+}
